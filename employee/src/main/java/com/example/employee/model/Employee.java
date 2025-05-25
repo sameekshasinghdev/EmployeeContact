@@ -83,8 +83,8 @@ public class Employee {
 		this.hireDate = hireDate;
 	}
 
-	public Employee() {
-	}
+	// No-arg constructor
+    public Employee() {}
 
 	public Employee(Long id, String name, String email, String contact, String department, double salary,
 			LocalDate hireDate) {

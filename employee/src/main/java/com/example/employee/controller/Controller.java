@@ -23,8 +23,7 @@ public class Controller {
 	private EmployeeService service;
 
 	@GetMapping
-	public Page<Employee> getAllEmployees(@PageableDefault(page = 0, size = 5, sort = "id") Pageable pageable
-		    ) {
+	public Page<Employee> getAllEmployees(@PageableDefault(page = 0, size = 5, sort = "id") Pageable pageable) {
 		return service.getAllEmployees(pageable);
 	}
 
