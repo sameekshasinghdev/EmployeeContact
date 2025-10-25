@@ -84,7 +84,7 @@ public class Employee {
 	}
 
 	// No-arg constructor
-    public Employee() {}
+ /*   public Employee() {}
 
 	public Employee(Long id, String name, String email, String contact, String department, double salary,
 			LocalDate hireDate) {
@@ -96,7 +96,7 @@ public class Employee {
 		this.department = department;
 		this.salary = salary;
 		this.hireDate = hireDate;
-	}
+	}*/
 
 	@Override
 	public String toString() {
